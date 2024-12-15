@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/landinStyles.css" />
+    <script src="../scripts/variables.js" defer></script>
+    <script src="../scripts/script.js" defer></script>
+    
+
+    <title>Shoes</title>
+  </head>
+  <body>
+    <nav class="desktop">
+      <div class="estela"></div>
+      <ul class="nav__List">
+        <li class="nav__List--item"><a href="#home">Home</a></li>
+        <li class="nav__List--item"><a href="#home">Rebajas</a></li>
+        <li class="nav__List--item"><a href="#home">Recomendados</a></li>
+        <li class="nav__List--item"><a href="#home">Blog</a></li>
+        <li class="nav__List--item">
+        <img class="shopping--card" src="../assets/icons/shopping_cart_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" />
+        <span class="cart__amount">0</span>
+      </ul>
+      <div class="estela"></div>
+    </nav>
+
+    <nav class="Nav__mobile ">
+       <li class="nav__List--item ">
+          <img
+            class="shopping--card"
+            src="../assets/icons/shopping_cart_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg"
+          ></img> <span class="cart__amount">0</span>
+        </li>
+      <img class="Nav__mobile--menuIcon" src="../assets/icons/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="hamburger icon" />
+      <ul class="nav__mobile--ul ">
+        <li class="nav__mobile--item"><a href="#home">Home</a></li>
+        <li class="nav__mobile--item"><a href="#home">Rebajas</a></li>
+        <li class="nav__mobile--item"><a href="#home">Recomendados</a></li>
+        <li class="nav__mobile--item"><a href="#home">Blog</a></li>
+      </ul>
+      
+    </nav>
+
+
+    <main>
+      <div class="flex search__title--div">
+
+      <div class="title__container">
+        <h1  class="main__title">PRODUCTOS</h1>
+      </div> 
+
+       <div class="search">
+        <input type="text" placeholder="Buscar" class="search--input">
+        <img class="nav__searchIcon" src="../assets/icons/search_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="búsqueda icon" />
+        <img class="filter--Icon" src="../assets/icons/filter_alt_40dp_5F6368_FILL0_wght400_GRAD0_opsz40.svg" alt="filtro icon" />
+      </div>
+      
+     
+      </div>
+
+
+
+   <div class="flex wrapper"> 
+   
+      <section class="filters ">
+        <div>
+          <h5 class="filter__heading">Categorias</h5>
+          <div class="shoe-category"></div>
+        </div>
+        <div class="margin_top">
+          <h5 class="filter__heading">Tallas</h5>
+          <div class="shoe-sizes"></div>
+        </div>
+
+        <div class="margin_top">
+          <h5 class="filter__heading">Colores</h5>
+          <div class="shoe__colors"></div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="card__container"></div>
+        
+      <div class="modal">
+        <button class="modal-close">X</button>
+        <div class="modal__container"></div>
+       
+    
+      </div>
+       
+     </div>
+
+      </section>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <div class="address">
+          <h3 >Contacto</h3>
+          <p>Email:email@email.com</p>
+          <p>Calle Tomillo, No. 21, Málaga, España</p>
+        </div>
+      </div>
+      <small class="rights">&copy; Derechos reservados </small>
+    </footer>
+  </body>
+</html>
